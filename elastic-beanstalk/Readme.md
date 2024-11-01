@@ -60,7 +60,7 @@ psql study-sync < sql/seed.sql -h localhost -U postgres
 
 ```sh
     pip install virtualenv
-    python ./aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py
+    pip install awsebcli
 ```
 
 > Follow additional steps mentioned in terminal (if any).
